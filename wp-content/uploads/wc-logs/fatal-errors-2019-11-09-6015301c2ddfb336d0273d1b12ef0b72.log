@@ -1,0 +1,8 @@
+2019-11-09T01:33:12+00:00 CRITICAL Uncaught WC_WooMercadoPago_Exception: Could not resolve host: api.mercadopago.com; Name or service not known in /storage/ssd5/740/11436740/public_html/wp-content/plugins/woocommerce-mercadopago/includes/module/sdk/lib/RestClient/AbstractRestClient.php:121
+Stack trace:
+#0 /storage/ssd5/740/11436740/public_html/wp-content/plugins/woocommerce-mercadopago/includes/module/sdk/lib/RestClient/AbstractRestClient.php(21): AbstractRestClient::execute(Array, Resource id #853)
+#1 /storage/ssd5/740/11436740/public_html/wp-content/plugins/woocommerce-mercadopago/includes/module/sdk/lib/RestClient/MpRestClient.php(16): AbstractRestClient::execAbs(Array, 'https://api.mer...')
+#2 /storage/ssd5/740/11436740/public_html/wp-content/plugins/woocommerce-mercadopago/includes/module/sdk/lib/MP.php(194): MPRestClient::get(Array)
+#3 /storage/ssd5/740/11436740/public_html/wp-content/plugins/woocommerce-mercadopago/includes/module/sdk/lib/MP.php(144): MP->search_customer('pam.kratagon@gm...')
+#4 /storage/ssd5/740/11436740/public_html/wp em /storage/ssd5/740/11436740/public_html/wp-content/plugins/woocommerce-mercadopago/includes/module/sdk/lib/RestClient/AbstractRestClient.php na linha 121
+
